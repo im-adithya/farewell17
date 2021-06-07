@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/farewell17/static/css/main.fb4fb52e.chunk.css",
-    "main.js": "/farewell17/static/js/main.1273053e.chunk.js",
-    "main.js.map": "/farewell17/static/js/main.1273053e.chunk.js.map",
+    "main.css": "/farewell17/static/css/main.38c854fc.chunk.css",
+    "main.js": "/farewell17/static/js/main.01aa0dc9.chunk.js",
+    "main.js.map": "/farewell17/static/js/main.01aa0dc9.chunk.js.map",
     "runtime-main.js": "/farewell17/static/js/runtime-main.36e176a0.js",
     "runtime-main.js.map": "/farewell17/static/js/runtime-main.36e176a0.js.map",
     "static/js/2.81c8db5f.chunk.js": "/farewell17/static/js/2.81c8db5f.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.d109fdfd.chunk.js": "/farewell17/static/js/3.d109fdfd.chunk.js",
     "static/js/3.d109fdfd.chunk.js.map": "/farewell17/static/js/3.d109fdfd.chunk.js.map",
     "index.html": "/farewell17/index.html",
-    "static/css/main.fb4fb52e.chunk.css.map": "/farewell17/static/css/main.fb4fb52e.chunk.css.map",
+    "static/css/main.38c854fc.chunk.css.map": "/farewell17/static/css/main.38c854fc.chunk.css.map",
     "static/js/2.81c8db5f.chunk.js.LICENSE.txt": "/farewell17/static/js/2.81c8db5f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/farewell17/static/media/bodybg.02fb2fed.jpg",
-    "static/media/App.css": "/farewell17/static/media/back.cd973118.png",
+    "static/media/App.css": "/farewell17/static/media/back.173bdc55.jpg",
     "static/media/first1.42ea1d34.png": "/farewell17/static/media/first1.42ea1d34.png",
     "static/media/first10.d5210005.png": "/farewell17/static/media/first10.d5210005.png",
     "static/media/first11.a8beca8e.png": "/farewell17/static/media/first11.a8beca8e.png",
@@ -32,6 +32,8 @@
     "static/media/first7.15a4ae62.png": "/farewell17/static/media/first7.15a4ae62.png",
     "static/media/first8.f703bc12.png": "/farewell17/static/media/first8.f703bc12.png",
     "static/media/first9.0cde4a9b.png": "/farewell17/static/media/first9.0cde4a9b.png",
+    "static/media/lock.5590bf7c.png": "/farewell17/static/media/lock.5590bf7c.png",
+    "static/media/lockopen.72dae695.png": "/farewell17/static/media/lockopen.72dae695.png",
     "static/media/question.css": "/farewell17/static/media/question.5476326d.png",
     "static/media/second1.2d745b82.png": "/farewell17/static/media/second1.2d745b82.png",
     "static/media/second10.87d9f206.png": "/farewell17/static/media/second10.87d9f206.png",
@@ -55,7 +57,7 @@
   "entrypoints": [
     "static/js/runtime-main.36e176a0.js",
     "static/js/2.81c8db5f.chunk.js",
-    "static/css/main.fb4fb52e.chunk.css",
-    "static/js/main.1273053e.chunk.js"
+    "static/css/main.38c854fc.chunk.css",
+    "static/js/main.01aa0dc9.chunk.js"
   ]
 }
