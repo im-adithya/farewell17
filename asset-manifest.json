@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/farewell17/static/css/main.f4c3164a.chunk.css",
+    "main.css": "/farewell17/static/css/main.116da52a.chunk.css",
     "main.js": "/farewell17/static/js/main.25babad8.chunk.js",
     "main.js.map": "/farewell17/static/js/main.25babad8.chunk.js.map",
     "runtime-main.js": "/farewell17/static/js/runtime-main.36e176a0.js",
@@ -10,7 +10,7 @@
     "static/js/3.d109fdfd.chunk.js": "/farewell17/static/js/3.d109fdfd.chunk.js",
     "static/js/3.d109fdfd.chunk.js.map": "/farewell17/static/js/3.d109fdfd.chunk.js.map",
     "index.html": "/farewell17/index.html",
-    "static/css/main.f4c3164a.chunk.css.map": "/farewell17/static/css/main.f4c3164a.chunk.css.map",
+    "static/css/main.116da52a.chunk.css.map": "/farewell17/static/css/main.116da52a.chunk.css.map",
     "static/js/2.81c8db5f.chunk.js.LICENSE.txt": "/farewell17/static/js/2.81c8db5f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/farewell17/static/media/bodybg.02fb2fed.jpg",
     "static/media/App.css": "/farewell17/static/media/back-min.3dd38538.jpg",
@@ -57,7 +57,7 @@
   "entrypoints": [
     "static/js/runtime-main.36e176a0.js",
     "static/js/2.81c8db5f.chunk.js",
-    "static/css/main.f4c3164a.chunk.css",
+    "static/css/main.116da52a.chunk.css",
     "static/js/main.25babad8.chunk.js"
   ]
 }
