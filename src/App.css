@@ -45,96 +45,96 @@
 
 .third {
   position: absolute;
-  top: calc(20px + 70vh);
+  top: 570px;
   left: 50px;
 }
 
 .fourth {
   position: absolute;
-  top: calc(20px + 110vh);
+  top: 880px;
   right: 30px;
 }
 
 .fifth {
   position: absolute;
-  top: calc(20px + 155vh);
+  top: 1200px;
   left: 50px;
 }
 
 .sixth {
   position: absolute;
-  top: calc(20px + 200vh);
+  top: 1510px;
   right: 30px;
 }
 
 .seventh {
   position: absolute;
-  top: calc(20px + 235vh);
+  top: 1800px;
   left: 70px;
 }
 .eighth {
   position: absolute;
-  top: calc(20px + 270vh);
+  top: 2080px;
   right: 30px;
 }
 
 .ninth {
   position: absolute;
-  top: calc(20px + 310vh);
+  top: 2380px;
   left: 70px;
 }
 
 .tenth {
   position: absolute;
-  top: calc(20px + 350vh);
+  top: 2680px;
   right: 50px;
 }
 
 .eleventh {
   position: absolute;
-  top: calc(20px + 390vh);
+  top: 2980px;
   left: 70px;
 }
 
 .twelfth {
   position: absolute;
-  top: calc(20px + 425vh);
+  top: 3250px;
   right: 30px;
 }
 
 .thirteenth {
   position: absolute;
-  top: calc(20px + 460vh);
+  top: 3500px;
   left: 70px;
 }
 
 .fourteenth {
   position: absolute;
-  top: calc(20px + 510vh);
+  top: 3850px;
   right: 30px;
 }
 
 .fifteenth {
   position: absolute;
-  top: calc(20px + 540vh);
+  top: 4110px;
   left: 70px;
 }
 
 .sixteenth {
   position: absolute;
-  top: calc(20px + 580vh);
+  top: 4400px;
   right: 30px;
 }
 
 .seventeenth {
   position: absolute;
-  top: calc(20px + 615vh);
+  top: 4680px;
   left: 70px;
 }
 
 .eightteenth {
   position: absolute;
-  top: calc(20px + 650vh);
+  top: 4950px;
   right: 30px;
 }
 
