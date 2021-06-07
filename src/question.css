@@ -11,6 +11,25 @@
   z-index: 10;
 }
 
+.qwrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.qwrap input {
+  margin-right: 20px;
+}
+
+.qgo {
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 4px;
+  background-color: rgb(0, 168, 0);
+  cursor: pointer;
+}
+
 .question {
   position: fixed;
   -webkit-transform: translateX(-50%);

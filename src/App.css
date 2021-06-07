@@ -1,9 +1,9 @@
 .App {
-  background-image: url("./assets/back.png");
+  background-image: url("./assets/back.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 5000px !important;
-  max-height: 5000px !important;
+  height: 5500px !important;
+  max-height: 5500px !important;
   width: 100% !important;
   max-width: 100% !important;
   position: relative;
@@ -13,6 +13,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.character > img {
+  cursor: pointer;
 }
 
 .character > input {
@@ -35,103 +39,103 @@
 
 .second {
   position: absolute;
-  top: 250px;
+  top: 300px;
   right: 30px;
 }
 
 .third {
   position: absolute;
-  top: calc(20px + 65vh);
+  top: calc(20px + 70vh);
   left: 50px;
 }
 
 .fourth {
   position: absolute;
-  top: calc(20px + 100vh);
-  right: 5px;
+  top: calc(20px + 110vh);
+  right: 30px;
 }
 
 .fifth {
   position: absolute;
-  top: calc(20px + 130vh);
+  top: calc(20px + 155vh);
   left: 50px;
 }
 
 .sixth {
   position: absolute;
-  top: calc(20px + 170vh);
-  right: 5px;
+  top: calc(20px + 200vh);
+  right: 30px;
 }
 
 .seventh {
   position: absolute;
-  top: calc(20px + 200vh);
+  top: calc(20px + 235vh);
   left: 70px;
 }
 .eighth {
   position: absolute;
-  top: calc(20px + 230vh);
-  right: 5px;
+  top: calc(20px + 270vh);
+  right: 30px;
 }
 
 .ninth {
   position: absolute;
-  top: calc(20px + 270vh);
+  top: calc(20px + 310vh);
   left: 70px;
 }
 
 .tenth {
   position: absolute;
-  top: calc(20px + 300vh);
+  top: calc(20px + 350vh);
   right: 50px;
 }
 
 .eleventh {
   position: absolute;
-  top: calc(20px + 330vh);
+  top: calc(20px + 390vh);
   left: 70px;
 }
 
 .twelfth {
   position: absolute;
-  top: calc(20px + 370vh);
-  right: 5px;
+  top: calc(20px + 425vh);
+  right: 30px;
 }
 
 .thirteenth {
   position: absolute;
-  top: calc(20px + 400vh);
+  top: calc(20px + 460vh);
   left: 70px;
 }
 
 .fourteenth {
   position: absolute;
-  top: calc(20px + 430vh);
-  right: 5px;
+  top: calc(20px + 510vh);
+  right: 30px;
 }
 
 .fifteenth {
   position: absolute;
-  top: calc(20px + 470vh);
+  top: calc(20px + 540vh);
   left: 70px;
 }
 
 .sixteenth {
   position: absolute;
-  top: calc(20px + 500vh);
-  right: 5px;
+  top: calc(20px + 580vh);
+  right: 30px;
 }
 
 .seventeenth {
   position: absolute;
-  top: calc(20px + 535vh);
+  top: calc(20px + 615vh);
   left: 70px;
 }
 
 .eightteenth {
   position: absolute;
-  top: calc(20px + 565vh);
-  right: 5px;
+  top: calc(20px + 650vh);
+  right: 30px;
 }
 
 .invisible {
@@ -152,9 +156,11 @@ input {
 
 .final {
   position: absolute;
-  top: 4780px;
-  bottom: 30px;
+  top: 5280px;
   font-size: 80px;
-  color: white;
+  color: rgb(255, 255, 255);
   left: 70px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  cursor: pointer;
 }

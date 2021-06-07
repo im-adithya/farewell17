@@ -4,6 +4,9 @@ import Notif from "./notif";
 import Question from "./question";
 import "./App.css";
 
+import lockc from "./assets/lock.png";
+import locko from "./assets/lockopen.png";
+
 import first1 from "./assets/first1.png";
 import second1 from "./assets/second1.png";
 
@@ -72,11 +75,11 @@ class App extends React.Component {
       questions: [
         "His love in ADP but not a 4 letter word",
         "While chilling on the SAC roof, Laku bhaiya gives him 16 smoked cigarette butts and challenges him to make cigarettes from them so they could have a good time. One cigarette can be made out of 4 butts. He takes the challenge personally. How many cigarettes was he able to make at the end of the night?",
-        "Jahnavi Di",
+        "She is in love with a number which is the sum of the first four positive factorials",
         "One thing he doesn't give his juniors or batchies",
         "They say girls break hearts while she breaks",
         "Paisa andha but ye lena bahut zaroori hai",
-        "Iss Best friend ke lie to 'JAAN' bhi de sakte hain (Not really?)",
+        "Iss best friend ke lie to 'JAAN' bhi de sakte hain (Not really?)",
         "Popeye : Spinach :: Laddu:Bheem :: Aastha Di: ???",
         "For him the colors in 🛑 and 🛑 are definitely ",
         "You visit SAC hall to inspect the panels. Not to your surprise, it was a total mess. You calmly summon your favorite junior like this: Abey Kutta Randi ?",
@@ -84,15 +87,15 @@ class App extends React.Component {
         "A junior who had a big crush on her 🤭",
         "Yelled this in the classroom thinking it isn't a word in Hindi (Gult problems)",
         "Mind in ADP but ♥ in ",
-        "Samiksha Di",
+        "She has a history with this SU post...",
         "____ raat thi, vo mere saath this",
         "Biggest mistake of your college life was liking",
-        "Praneeth Bhaiya",
+        "He is so much into this that he can listen to it 6 hours straight...",
       ],
       answers: [
         ["ruchir", "ruchi"],
         ["5", "five"],
-        ["jahnavi"],
+        ["33", "thirty three", "thirty-three"],
         ["treat", "treats"],
         ["macbook", "macbooks"],
         ["mcn", "merit-cum-need", "merit cum need"],
@@ -104,10 +107,10 @@ class App extends React.Component {
         ["shounak"],
         ["lauda", "lavda", "lawda", "loda"],
         ["embryo"],
-        ["samiksha"],
+        ["gensec", "gen-sec"],
         ["chandni"],
-        ["ruchir"],
-        ["praneeth"],
+        ["ruchir", "ruchi"],
+        ["star wars podcast", "star wars", "podcast"],
       ],
       chars: [
         "moksh",
@@ -242,10 +245,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 1}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 1 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 1 ||
+                  (this.state.levelquestion && this.state.level === 1)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 1
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -268,10 +282,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 2}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 2 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 2 ||
+                  (this.state.levelquestion && this.state.level === 2)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 2
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -294,10 +319,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 3}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 3 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 3 ||
+                  (this.state.levelquestion && this.state.level === 3)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 3
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -320,10 +356,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 4}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 4 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 4 ||
+                  (this.state.levelquestion && this.state.level === 4)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 4
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -346,10 +393,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 5}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 5 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 5 ||
+                  (this.state.levelquestion && this.state.level === 5)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 5
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -372,10 +430,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 6}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 6 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 6 ||
+                  (this.state.levelquestion && this.state.level === 6)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 6
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -398,10 +467,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 7}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 7 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 7 ||
+                  (this.state.levelquestion && this.state.level === 7)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 7
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -424,10 +504,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 8}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 8 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 8 ||
+                  (this.state.levelquestion && this.state.level === 8)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 8
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -450,10 +541,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 9}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 9 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 9 ||
+                  (this.state.levelquestion && this.state.level === 9)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 9
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -476,10 +578,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 10}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 10 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 10 ||
+                  (this.state.levelquestion && this.state.level === 10)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 10
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -502,10 +615,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 11}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 11 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 11 ||
+                  (this.state.levelquestion && this.state.level === 11)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 11
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -528,10 +652,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 12}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 12 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 12 ||
+                  (this.state.levelquestion && this.state.level === 12)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 12
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -554,10 +689,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 13}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 13 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 13 ||
+                  (this.state.levelquestion && this.state.level === 13)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 13
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -580,10 +726,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 14}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 14 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 14 ||
+                  (this.state.levelquestion && this.state.level === 14)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 14
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -606,10 +763,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 15}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 15 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 15 ||
+                  (this.state.levelquestion && this.state.level === 15)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 15
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -632,10 +800,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 16}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 16 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 16 ||
+                  (this.state.levelquestion && this.state.level === 16)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 16
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -658,10 +837,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 17}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 17 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 17 ||
+                  (this.state.levelquestion && this.state.level === 17)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 17
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
 
@@ -684,11 +874,21 @@ class App extends React.Component {
                 onChange={this.handleInput}
                 disabled={this.state.level !== 18}
               />
-              <div onClick={this.submitChar}>Check</div>
-              {this.state.levelquestion && this.state.level === 18 && (
-                <div onClick={this.toggleAsk}>Ask</div>
-                //this.state.level > 18 || (this.state.levelquestion && this.state.level === 18)
-              )}
+              <img
+                alt="lock"
+                src={
+                  this.state.level > 18 ||
+                  (this.state.levelquestion && this.state.level === 18)
+                    ? locko
+                    : lockc
+                }
+                height={25}
+                onClick={
+                  this.state.levelquestion && this.state.level === 18
+                    ? this.toggleAsk
+                    : this.submitChar
+                }
+              />
             </div>
           </div>
         </div>
@@ -696,8 +896,9 @@ class App extends React.Component {
           className={"final " + (this.state.level > 18 ? "" : "invisible")}
           onClick={() =>
             this.state.level > 18
-              ? (window.location.href = "https://google.com")
-              : (window.location.href = "https://youtube.com")
+              ? (window.location.href =
+                  "https://drive.google.com/file/d/1AlAckBtjBuIXbNg6a6go2dEaa2Gbp5SI/view?usp=sharing")
+              : ""
           }
         >
           TREASURE!

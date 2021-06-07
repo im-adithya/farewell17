@@ -27,14 +27,16 @@ class Question extends React.Component {
         <div className={this.props.ask ? "questionslide question" : "question"}>
           {this.props.ask && <p>{this.props.question}</p>}
           {this.props.ask && (
-            <div>
+            <div className="qwrap">
               <input
                 name="answer"
                 className="qinput"
                 value={this.state.answer}
                 onChange={this.handleInput}
               />
-              <div onClick={this.submit}>Check</div>
+              <div className="qgo" onClick={this.submit}>
+                GO!
+              </div>
             </div>
           )}
         </div>
